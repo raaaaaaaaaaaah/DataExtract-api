@@ -1,0 +1,31 @@
+# Extrator de Dados da PokeAPI
+
+Este projeto demonstra como consumir a [PokeAPI](https://pokeapi.co/), processar os dados e gerar:
+- Um arquivo CSV com informações dos Pokémons
+- Um gráfico comparando altura e tamanho
+
+# Funcionalidades
+- Busca informações de uma lista pré-definida de Pokémons
+- Salva dados em CSV (colunas: nome, altura, idade, tamanho)
+- Gera um gráfico com `matplotlib`
+- Tratamento de erros para requisições HTTP
+- Pausa entre as requisições para respeitar a API
+
+# Como executar
+1. Clone este repositório:
+```bash
+git clone https://github.com/seu-usuario/pokeapi-extrator.git
+cd pokeapi-extrator
+
+#Instale as dependências:
+
+bash
+Copiar
+Editar
+pip install -r requirements.txt
+Execute o script:
+
+bash
+Copiar
+Editar
+python extracao_pokemon.py
